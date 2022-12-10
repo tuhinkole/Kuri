@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kuri-bb48a": {
+      "hosting": {
+        "app": [
+          "kuri-bb48a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kuri-bb48a"
+  }
+}
