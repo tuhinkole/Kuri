@@ -1,20 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+<ion-row class="ion-no-padding">
+    <ion-col size="12" size-md>
+    </ion-col>
+    <ion-col size="12" size-md>
+      <div class="ion-margin  ion-padding-bottom signin-banner">
+        <ion-item lines="full">
+          <ion-icon name="log-in-outline" slot="start"></ion-icon>
+          <h2>{{"Sign In"}}</h2>
+        </ion-item>
+        <div #firebaseuiauthcontainer id="firebaseuiauthcontainer"></div>
+      </div>
+    </ion-col>
+</ion-row>
